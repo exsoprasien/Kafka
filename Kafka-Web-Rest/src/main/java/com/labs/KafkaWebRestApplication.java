@@ -20,6 +20,7 @@ public class KafkaWebRestApplication {
 	
 	@RequestMapping("/kafka")
 	public void consumeKafka() {
+		System.out.println("test");
 		//kafka.consumer();
 	}
 }
