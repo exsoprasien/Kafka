@@ -55,9 +55,7 @@
 	<profiles>
 		<profile>
 			<id>dev</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
+			
 			<properties>
 				<project.packaging>jar</project.packaging>
 			</properties>
@@ -65,6 +63,9 @@
 
 		<profile>
 			<id>int</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
 			<properties>
 				<project.packaging>war</project.packaging>
 			</properties>
