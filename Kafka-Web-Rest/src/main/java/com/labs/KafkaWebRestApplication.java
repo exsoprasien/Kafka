@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
+@RequestMapping("/kafka")
 public class KafkaWebRestApplication {
 	
 //	@Autowired
@@ -18,7 +19,7 @@ public class KafkaWebRestApplication {
 	}
 	
 	
-	@RequestMapping("/kafka")
+	@RequestMapping("/test")
 	public void consumeKafka() {
 		System.out.println("testyyyyyyyyyakooo");
 		//kafka.consumer();
